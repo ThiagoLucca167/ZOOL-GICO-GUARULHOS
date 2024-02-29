@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.headZoo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logotipo a .imgLogo{
+background-image: url(../img/LOGOT2.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 0px -55px;
+width: 200px;
+height: 30px;
+}
+.menu {
+    width: 100%;
+}
+.menu ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+} 
+.menu ul li {
+    position: relative; /* Para posicionar o dropdown */
+  }
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    display: block;
+}  
+/* Estilos para o dropdown */
+.menu ul li .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.menu ul li:hover .dropdown-content {
+    display: block;
+}
+.menu ul li .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  
+}
+.menu ul li .dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+  
