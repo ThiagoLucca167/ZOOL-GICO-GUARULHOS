@@ -1,0 +1,68 @@
+@media screen and (max-width: 360px) {
+    .logotipo a .imgLogo{
+        background-position: 0px -55px;
+        width: 200px;
+        height: 30px;
+    }
+    nav.menu{
+        top: 4% !important;
+        height: 100vh !important;
+        width: 100% !important;
+        border-radius: 0px;
+    }
+    .menu ul{
+        width: 100%;
+        border-radius: 0px !important;
+    }
+    .menu-icon {
+        top: 0px !important;
+        right: 10px !important; 
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .dsfl{
+        flex-direction: column;
+    }
+    .algncnt{
+        align-items: start;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    nav.menu {
+        display: none;
+        position: absolute;
+        right: 0;
+        top: 8%;
+        width: auto;
+           
+    }
+    .menu ul{
+        flex-direction: column;
+        height: 90vh;
+        border-radius: 15px 0px 0px 15px;
+    }
+    .menu ul li{
+            margin-bottom: 10px;
+    }
+    .menu-icon {
+        display: block;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 2; /* Certifica-se de que o ícone do menu fique acima do conteúdo */
+    }
+    .menuOpNone{
+        display: block;
+    }
+    
+    
+    #menu-toggle {
+        display: none;
+    }
+    
+    #menu-toggle:checked + .headZoo .menu {
+        display: flex;
+    }
+}    
