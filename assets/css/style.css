@@ -60,13 +60,20 @@
 
 
 
-main{
+main .crg{
     background: linear-gradient(180deg, #e0e4e5, #D5D7D8);
 }
 main .imgbanner{
     background-image: url(../img/onça.png);    
+   
+}
+main .imgbanner2{
+    background-image: url(../img/zoologico.png);    
+   
+}
+main .ajstimg{
     width: 100vw;
-    height: 77vh;
+    height: 78vh;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -74,6 +81,7 @@ main .pegadasZoo{
     color: black;
     width: 100%;
     text-align: center;
+    margin: auto 0;
 }
 main .pegadasZoo h1{
     font-weight: 600;
@@ -86,10 +94,13 @@ main .pegadasZoo h3{
     text-shadow: 0px 0px 1px black;
 }
 
+.row{
+    height: 100vh;
+}
 
 .dsfl{
     display: flex;
 }
 .algncnt{
-    align-items: center;
+    align-items: start;
 }
